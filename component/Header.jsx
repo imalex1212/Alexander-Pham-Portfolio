@@ -69,11 +69,11 @@ function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold">
+          <a id="home" className="text-2xl font-bold">
             <span className="text-green-400">ALEX</span>
             <span className="text-white">PHAM</span>
             <span className="text-green-400">.</span>
-          </div>
+          </a>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex gap-8">
