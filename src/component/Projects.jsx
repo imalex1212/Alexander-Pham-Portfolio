@@ -1,6 +1,6 @@
-import sortingCard from "../public/sorting_card.png";
-import quizApp from "../public/Frontend-quiz-app.png";
-import portfolio from "../public/Portfolio.png";
+import sortingCard from "../../public/sorting_card.png";
+import quizApp from "../../public/Frontend-quiz-app.png";
+import portfolio from "../../public/Portfolio.png";
 
 import { Github, ExternalLink, GitBranch } from "lucide-react";
 
@@ -39,6 +39,8 @@ function Projects() {
       techonologies: ["React", "Tailwind CSS"],
       category: "Frontend",
       featured: false,
+      Git: "https://github.com/imalex1212/Alexander-Pham-Portfolio.git",
+      liveLink: "https://imalex1212.github.io/Alexander-Pham-Portfolio/",
     },
   ];
   return (
