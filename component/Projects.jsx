@@ -1,3 +1,7 @@
+import sortingCard from "../public/sorting_card.png";
+import quizApp from "../public/Frontend-quiz-app.png";
+import portfolio from "../public/Portfolio.png";
+
 import { Github, ExternalLink, GitBranch } from "lucide-react";
 
 function Projects() {
@@ -7,7 +11,7 @@ function Projects() {
       title: " Card Game",
       description:
         "A sorting card Game built with HTML and CSS, and  Javascripts. Participants arranges a deck of cards into logical groups or sequences based on their content",
-      image: "./public/sorting_card.png",
+      image: sortingCard,
       techonologies: ["HTML", "CSS", "Javascript"],
       category: "Frontend",
       featured: true,
@@ -19,7 +23,7 @@ function Projects() {
       title: "Front End Quiz",
       description:
         "a technical assessment or trivia test that evaluates a candidate's knowledge and skills in front-end development, covering topics like HTML, CSS, JavaScript, and Assessibility",
-      image: "./public/Frontend-quiz-app.png",
+      image: quizApp,
       techonologies: ["HTML", "CSS", "Javascript"],
       category: "Frontend",
       featured: false,
@@ -31,7 +35,7 @@ function Projects() {
       title: "Portfolio Website",
       description:
         "A responsive portfolio showcasing modern design principles with smooth animations and optimized perfermance.",
-      image: "./public/Portfolio.png",
+      image: portfolio,
       techonologies: ["React", "Tailwind CSS"],
       category: "Frontend",
       featured: false,
