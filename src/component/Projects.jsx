@@ -42,6 +42,18 @@ function Projects() {
       Git: "https://github.com/imalex1212/Alexander-Pham-Portfolio.git",
       liveLink: "https://imalex1212.github.io/Alexander-Pham-Portfolio/",
     },
+    {
+      id: 4,
+      title: "Tic Tac Toe",
+      description:
+        "A sleek, modern take on the timeless Tic Tac Toe game with CPU AI and multiplayer modes.",
+      image: portfolio,
+      techonologies: ["HTML", "Tailwindcss", "Javascript"],
+      category: "Front-End",
+      featured: false,
+      Git: "https://github.com/imalex1212/tic-tac-toe.git",
+      liveLink: "https://imalex1212.github.io/tic-tac-toe/",
+    },
   ];
   return (
     <section
