@@ -1,6 +1,7 @@
 import sortingCard from "../../public/sorting_card.png";
 import quizApp from "../../public/Frontend-quiz-app.png";
 import portfolio from "../../public/Portfolio.png";
+import ticTacToe from "../../public/Tic-Tac-Toe.png";
 
 import { Github, ExternalLink, GitBranch } from "lucide-react";
 
@@ -47,7 +48,7 @@ function Projects() {
       title: "Tic Tac Toe",
       description:
         "A sleek, modern take on the timeless Tic Tac Toe game with CPU AI and multiplayer modes.",
-      image: portfolio,
+      image: ticTacToe,
       techonologies: ["HTML", "Tailwindcss", "Javascript"],
       category: "Front-End",
       featured: false,
